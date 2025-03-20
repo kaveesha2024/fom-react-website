@@ -2,6 +2,7 @@ import NavigationBar from "../NavBar/NavigationBar.jsx";
 import Banner from "../re-usable/BannerSection/Banner.jsx";
 import aboutBanner from "../../../public/jpg/home2.jpg";
 import FullWidthCard from "../re-usable/card/fullWidthCard/FullWidthCard.jsx";
+import Footer from "../footer/Footer.jsx";
 const About = () => {
   return (
     <div
@@ -66,6 +67,7 @@ const About = () => {
              overall health and longevity but also reduces healthcare costs, enhances mental well-being, and fosters
              a sustainable, healthier future for communities."
       />
+      <Footer />
     </div>
   );
 };

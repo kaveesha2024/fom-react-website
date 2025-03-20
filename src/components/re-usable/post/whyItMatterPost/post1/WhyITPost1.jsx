@@ -4,20 +4,22 @@ const WhyITPost1 = ({ header, content, picture }) => {
   return (
     <div
       style={{
-        width: "70%",
-        margin: "auto",
-        display: "flex",
-        flexWrap: "aside",
-        marginTop: "60px",
+          width: "70%",
+          height: "auto",
+          margin: "auto",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "150px",
       }}
     >
       <img
-        style={{
-          maxWidth: "50%",
-            height: "auto",
-        }}
-        src={picture}
-        alt="picture"
+          style={{
+              maxWidth: "50%",
+              height: "auto",
+          }}
+          src={picture}
+          alt="picture"
       />
       <div
         style={{

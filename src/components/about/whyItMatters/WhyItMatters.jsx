@@ -83,7 +83,7 @@ const WhyItMatters = () => {
                 lastText="Taking control of your health today can lead to a longer, healthier future!"
             />
         </div>
-        <Footer />
+        <Footer backgroundColor/>
     </div>
   );
 };
