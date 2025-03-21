@@ -2,8 +2,12 @@ import Banner from "../re-usable/BannerSection/Banner.jsx";
 import NavigationBar from "../NavBar/NavigationBar.jsx";
 import homePicture from '../../../public/jpg/home.jpg';
 import Footer from "../footer/Footer.jsx";
+import {useEffect} from "react";
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return(
         <>
             <NavigationBar />
