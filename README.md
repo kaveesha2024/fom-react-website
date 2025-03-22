@@ -1,21 +1,21 @@
-My React Website 🌐
+#    **My React Website 🌐**
 
 A modern, responsive website built with React.
-🚀 Features
+## **🚀 Features**
 
 ✅ Fast and lightweight ⚡
 ✅ Responsive design 📱💻
 ✅ Built with React + Vite
 📦 Installation
 
-    Clone the repository:
+clone the repo:
 
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+    git clone https://github.com/kaveesha2024/fom-react-website.git
+    cd fom-react-website
 
 Install dependencies:
 
-npm install
+    npm install
 
 Start the development server:
 
@@ -29,6 +29,6 @@ Start the development server:
 
     CSS / Tailwind (if used)
 
-📄 License
+#    **📄 License**
 
 This project is open-source and available under the MIT License.
