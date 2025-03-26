@@ -109,7 +109,7 @@ const WhatWeOffer = () => {
             para2="🔹 Exercise Mats, Gym Balls, and Resistance Bands: "
             span2="For guided fitness and rehabilitation exercises."
             para3="Smartboards & Multimedia Projectors: "
-            span3="Used for educational workshops and presentations."
+            span3="Used for educational workshops and presentations.git push"
             lastText="Access to high-quality facilities ensures that health recommendations are effective,
             measurable, and impactful."
         />
