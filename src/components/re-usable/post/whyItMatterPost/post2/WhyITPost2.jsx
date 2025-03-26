@@ -10,8 +10,8 @@ const WhyITPost1 = ({
   span2,
   para3,
   span3,
-    para4,
-    span4,
+  para4,
+  span4,
   lastText,
 }) => {
   return (

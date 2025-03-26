@@ -8,8 +8,8 @@ const OurMission = () => {
       <ReadMoreCard
         title="Our Mission"
         content1="Our goal is to create a healthier community by providing accessible,
-         research-driven lifestyle interventions that enhance nutrition, physical activity,
-          mental well-being, and disease prevention."
+        research-driven lifestyle interventions that enhance nutrition, physical activity,
+        mental well-being, and disease prevention."
         para1="Identify and assess "
         span1="lifestyle-related health risks."
         para2="Provide tailored lifestyle counseling "

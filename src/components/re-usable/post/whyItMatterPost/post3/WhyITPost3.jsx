@@ -1,26 +1,39 @@
 import PropTypes from "prop-types";
 import ParaAndSpan from "../../../paraAndSpan/ParaAndSpan.jsx";
 
-const WhyITPost1 = ({ para4,span4,header, content, picture, lastText, para1, span1, para2, span2, para3, span3 }) => {
+const WhyITPost1 = ({
+  para4,
+  span4,
+  header,
+  content,
+  picture,
+  lastText,
+  para1,
+  span1,
+  para2,
+  span2,
+  para3,
+  span3,
+}) => {
   return (
     <div
       style={{
-          width: "70%",
-          height: "auto",
-          margin: "auto",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          marginTop: "150px",
+        width: "70%",
+        height: "auto",
+        margin: "auto",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: "150px",
       }}
     >
       <img
-          style={{
-              maxWidth: "50%",
-              height: "auto",
-          }}
-          src={picture}
-          alt="picture"
+        style={{
+          maxWidth: "50%",
+          height: "auto",
+        }}
+        src={picture}
+        alt="picture"
       />
       <div
         style={{
@@ -57,21 +70,10 @@ const WhyITPost1 = ({ para4,span4,header, content, picture, lastText, para1, spa
             marginLeft: "2%",
           }}
         >
-          <ParaAndSpan
-            para={para1}
-            span={span1}
-          />
-          <ParaAndSpan
-            para={para2}
-            span={span2}
-          />
-          <ParaAndSpan
-            para={para3}
-            span={span3}
-          /><ParaAndSpan
-            para={para4}
-            span={span4}
-          />
+          <ParaAndSpan para={para1} span={span1} />
+          <ParaAndSpan para={para2} span={span2} />
+          <ParaAndSpan para={para3} span={span3} />
+          <ParaAndSpan para={para4} span={span4} />
         </div>
         <ParaAndSpan para={lastText} />
       </div>
@@ -82,15 +84,15 @@ const WhyITPost1 = ({ para4,span4,header, content, picture, lastText, para1, spa
 WhyITPost1.propTypes = {
   content: PropTypes.string,
   header: PropTypes.string.isRequired,
-    para1: PropTypes.string,
-    span1: PropTypes.string,
-    para2: PropTypes.string,
-    span2: PropTypes.string,
-    para3: PropTypes.string,
-    span3: PropTypes.string,
-    para4: PropTypes.string,
-    span4: PropTypes.string,
-    lastText: PropTypes.string,
+  para1: PropTypes.string,
+  span1: PropTypes.string,
+  para2: PropTypes.string,
+  span2: PropTypes.string,
+  para3: PropTypes.string,
+  span3: PropTypes.string,
+  para4: PropTypes.string,
+  span4: PropTypes.string,
+  lastText: PropTypes.string,
 };
 
 export default WhyITPost1;

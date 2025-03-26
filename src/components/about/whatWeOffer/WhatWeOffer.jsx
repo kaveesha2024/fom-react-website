@@ -4,8 +4,8 @@ import WhyITPost2 from "../../re-usable/post/whyItMatterPost/post2/WhyITPost2.js
 import picture1 from "../../../../public/jpg/whatWeOffer1.jpg";
 import picture2 from "../../../../public/jpg/whatWeoffer2.jpg";
 import picture3 from "../../../../public/jpg/whatWeoffer3.jpg";
-import picture4 from '../../../../public/jpg/whatWeoffer4.jpg';
-import picture5 from '../../../../public/jpg/whatWeoffer5.jpg';
+import picture4 from "../../../../public/jpg/whatWeoffer4.jpg";
+import picture5 from "../../../../public/jpg/whatWeoffer5.jpg";
 import Footer from "../../footer/Footer.jsx";
 import WhyITPost3 from "../../re-usable/post/whyItMatterPost/post3/WhyITPost3.jsx";
 import { useEffect } from "react";
@@ -22,9 +22,9 @@ const WhatWeOffer = () => {
         header="🌿 What We Offer"
         picture={picture}
         content="At the Lifestyle Counselling & Research Clinic,
-         we provide scientifically-backed lifestyle interventions to help individuals prevent,
-         manage, and even reverse non-communicable diseases (NCDs) such as diabetes,
-         obesity, heart disease, and metabolic disorders."
+        we provide scientifically-backed lifestyle interventions to help individuals prevent,
+        manage, and even reverse non-communicable diseases (NCDs) such as diabetes,
+        obesity, heart disease, and metabolic disorders."
         content2="Our approach is personalized, holistic,
         and evidence-based, focusing on nutrition, physical activity,
         mental well-being, and behavioral change to promote long-term health and wellness."
@@ -78,41 +78,43 @@ const WhatWeOffer = () => {
         lastText="By continuously improving scientific knowledge,
         we create better solutions for preventing and managing non-communicable diseases (NCDs)."
       />
-        <WhyITPost3
-            header="Community Health & Awareness Programs"
-            picture={picture4}
-            content="We organize workshops, awareness campaigns,
-            and group wellness programs to educate the public on healthy living.
-            These programs focus on nutrition, fitness, mental well-being, and disease prevention.
-            Our goal is to equip individuals with the right
-            knowledge and practical tools to take charge of their health."
-            para1="📢 Workshops & Seminars: "
-            span1="Educational sessions on nutrition, fitness, and healthy habits."
-            para2="🥗 Public Awareness Campaigns: "
-            span2="Initiatives to promote better eating habits and lifestyle choices."
-            para3="🏃‍♂️ Group Exercise & Wellness Programs: "
-            span3="Physical activity sessions for individuals of all fitness levels."
-            para4="💬 One-on-One & Group Counseling: "
-            span4="Personalized guidance for those at risk of NCDs."
-            lastText="Education and awareness drive healthier choices,
-            helping communities reduce the burden of lifestyle diseases."
-        />
-        <WhyITPost2
-            header="Cutting-Edge Facilities & Equipment"
-            picture={picture5}
-            content="Our clinic is equipped with advanced medical
-            screening and wellness tools for accurate health tracking.
-            We use body composition analyzers, fitness equipment, and smart technology for data-driven interventions.
-            These resources support scientific diagnosis, lifestyle coaching, and research initiatives."
-            para1="🔹 Body Composition Analyzers & Weighing Scales: "
-            span1="To measure fat percentage, muscle mass, and metabolic health."
-            para2="🔹 Exercise Mats, Gym Balls, and Resistance Bands: "
-            span2="For guided fitness and rehabilitation exercises."
-            para3="Smartboards & Multimedia Projectors: "
-            span3="Used for educational workshops and presentations.git push"
-            lastText="Access to high-quality facilities ensures that health recommendations are effective,
-            measurable, and impactful."
-        />
+      <WhyITPost3
+        header="Community Health & Awareness Programs"
+        picture={picture4}
+        content="We organize workshops, awareness campaigns,
+        and group wellness programs to educate the public on healthy living.
+        These programs focus on nutrition, fitness, mental well-being, and disease prevention.
+        Our goal is to equip individuals with the right
+        knowledge and practical tools to take charge of their health."
+        para1="📢 Workshops & Seminars: "
+        span1="Educational sessions on nutrition, fitness, and healthy habits."
+        para2="🥗 Public Awareness Campaigns: "
+        span2="Initiatives to promote better eating habits and lifestyle choices."
+        para3="🏃‍♂️ Group Exercise & Wellness Programs: "
+        span3="Physical activity sessions for individuals of all fitness levels."
+        para4="💬 One-on-One & Group Counseling: "
+        span4="Personalized guidance for those at risk of NCDs."
+        lastText="Education and awareness drive healthier choices,
+        helping communities reduce the burden of lifestyle diseases."
+      />
+      <WhyITPost2
+        header="Cutting-Edge Facilities & Equipment"
+        picture={picture5}
+        content="Our clinic is equipped with advanced medical
+        screening and wellness tools for accurate health tracking.
+        We use body composition analyzers, fitness equipment, and smart technology for data-driven interventions.
+        These resources support scientific diagnosis, lifestyle coaching, and research initiatives."
+        para1="🔹 Body Composition Analyzers & Weighing Scales: "
+        span1="To measure fat percentage, muscle mass, and metabolic health."
+        para2="🔹 Exercise Mats, Gym Balls, and Resistance Bands: "
+        span2="For guided fitness and rehabilitation exercises."
+        para3="🔹Smartboards & Multimedia Projectors: "
+        span3="Used for educational workshops and presentations.git push"
+        para4="Location: "
+        span4="Department of Biochemistry, Faculty of Medicine, University of Ruhuna."
+        lastText="Access to high-quality facilities ensures that health recommendations are effective,
+        measurable, and impactful."
+      />
       <Footer />
     </div>
   );

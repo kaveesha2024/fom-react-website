@@ -6,7 +6,7 @@ import picture2 from "../../../../public/jpg/WhyItMatters2.jpg";
 import WhyITPost3 from "../../re-usable/post/whyItMatterPost/post3/WhyITPost3.jsx";
 import WhyITPost4 from "../../../../public/jpg/whyitMatters4.jpg";
 import unhealthyPicture from "../../../../public/jpg/unhealthyPicture1.jpg";
-import preventionPicture from '../../../../public/jpg/prevention1.jpg';
+import preventionPicture from "../../../../public/jpg/prevention1.jpg";
 import { useEffect } from "react";
 import Footer from "../../footer/Footer.jsx";
 
@@ -21,10 +21,10 @@ const WhyItMatters = () => {
         <WhyITPost1
           header="Why It Matters?"
           content="Non-communicable diseases (NCDs) such as diabetes, heart disease,
-                    stroke, and obesity are among the leading causes of death and
-                    disability worldwide. These conditions are largely driven by
-                    unhealthy lifestyles, including poor diet, physical inactivity,
-                    chronic stress, and insufficient sleep."
+                   stroke, and obesity are among the leading causes of death and
+                   disability worldwide. These conditions are largely driven by
+                   unhealthy lifestyles, including poor diet, physical inactivity,
+                   chronic stress, and insufficient sleep."
           picture={picture}
         />
       </div>
@@ -69,21 +69,21 @@ const WhyItMatters = () => {
           lastText="These factors contribute to the rising prevalence of NCDs, making early intervention crucial."
         />
       </div>
-        <div>
-            <WhyITPost3
-                header="Prevention is The Key"
-                picture={preventionPicture}
-                content="The good news is that lifestyle changes can prevent, manage, and even reverse many chronic conditions. Scientific studies show that:"
-                para1="✅ A balanced diet "
-                span1="improves metabolism and reduces inflammation"
-                para2="✅ Regular physical activity "
-                span2="lowers the risk of diabetes and heart disease"
-                para3="✅ Stress management techniques "
-                span3="enhance mental and physical well-being"
-                lastText="Taking control of your health today can lead to a longer, healthier future!"
-            />
-        </div>
-        <Footer backgroundColor/>
+      <div>
+        <WhyITPost3
+          header="Prevention is The Key"
+          picture={preventionPicture}
+          content="The good news is that lifestyle changes can prevent, manage, and even reverse many chronic conditions. Scientific studies show that:"
+          para1="✅ A balanced diet "
+          span1="improves metabolism and reduces inflammation"
+          para2="✅ Regular physical activity "
+          span2="lowers the risk of diabetes and heart disease"
+          para3="✅ Stress management techniques "
+          span3="enhance mental and physical well-being"
+          lastText="Taking control of your health today can lead to a longer, healthier future!"
+        />
+      </div>
+      <Footer backgroundColor />
     </div>
   );
 };

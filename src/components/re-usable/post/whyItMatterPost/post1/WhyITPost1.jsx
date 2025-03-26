@@ -1,25 +1,25 @@
 import PropTypes from "prop-types";
 
-const WhyITPost1 = ({ content2,header, content, picture }) => {
+const WhyITPost1 = ({ content2, header, content, picture }) => {
   return (
     <div
       style={{
-          width: "70%",
-          height: "auto",
-          margin: "auto",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          marginTop: "150px",
+        width: "70%",
+        height: "auto",
+        margin: "auto",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: "150px",
       }}
     >
       <img
-          style={{
-              maxWidth: "50%",
-              height: "auto",
-          }}
-          src={picture}
-          alt="picture"
+        style={{
+          maxWidth: "50%",
+          height: "auto",
+        }}
+        src={picture}
+        alt="picture"
       />
       <div
         style={{
@@ -39,7 +39,7 @@ const WhyITPost1 = ({ content2,header, content, picture }) => {
             fontWeight: "bold",
             fontSize: "30px",
             color: "black",
-              marginBottom: "3%",
+            marginBottom: "3%",
           }}
         >
           {header}
@@ -47,17 +47,17 @@ const WhyITPost1 = ({ content2,header, content, picture }) => {
         <p
           style={{
             textAlign: "justify",
-
           }}
         >
           {content}
         </p>
-          <p style={{
-              textAlign: "justify",
-
-          }}>
-              {content2}
-          </p>
+        <p
+          style={{
+            textAlign: "justify",
+          }}
+        >
+          {content2}
+        </p>
       </div>
     </div>
   );
@@ -66,6 +66,6 @@ const WhyITPost1 = ({ content2,header, content, picture }) => {
 WhyITPost1.propTypes = {
   content: PropTypes.string,
   header: PropTypes.string.isRequired,
-    content2: PropTypes.string,
+  content2: PropTypes.string,
 };
 export default WhyITPost1;
