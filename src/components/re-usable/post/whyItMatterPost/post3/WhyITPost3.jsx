@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import ParaAndSpan from "../../../paraAndSpan/ParaAndSpan.jsx";
 
-const WhyITPost1 = ({ header, content, picture, lastText, para1, span1, para2, span2, para3, span3 }) => {
+const WhyITPost1 = ({ para4,span4,header, content, picture, lastText, para1, span1, para2, span2, para3, span3 }) => {
   return (
     <div
       style={{
@@ -68,6 +68,9 @@ const WhyITPost1 = ({ header, content, picture, lastText, para1, span1, para2, s
           <ParaAndSpan
             para={para3}
             span={span3}
+          /><ParaAndSpan
+            para={para4}
+            span={span4}
           />
         </div>
         <ParaAndSpan para={lastText} />
@@ -85,6 +88,8 @@ WhyITPost1.propTypes = {
     span2: PropTypes.string,
     para3: PropTypes.string,
     span3: PropTypes.string,
+    para4: PropTypes.string,
+    span4: PropTypes.string,
     lastText: PropTypes.string,
 };
 

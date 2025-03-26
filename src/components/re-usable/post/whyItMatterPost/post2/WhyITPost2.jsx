@@ -10,6 +10,8 @@ const WhyITPost1 = ({
   span2,
   para3,
   span3,
+    para4,
+    span4,
   lastText,
 }) => {
   return (
@@ -101,6 +103,21 @@ const WhyITPost1 = ({
               {span3}
             </span>
           </p>
+
+          <p
+            style={{
+              color: "black",
+            }}
+          >
+            {para4}{" "}
+            <span
+              style={{
+                color: "#777373",
+              }}
+            >
+              {span4}
+            </span>
+          </p>
         </div>
         <p>{lastText}</p>
       </div>
@@ -125,6 +142,8 @@ WhyITPost1.propTypes = {
   span2: PropTypes.string,
   para3: PropTypes.string,
   span3: PropTypes.string,
+  para4: PropTypes.string,
+  span4: PropTypes.string,
   lastText: PropTypes.string,
 };
 export default WhyITPost1;

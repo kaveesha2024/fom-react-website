@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const WhyITPost1 = ({ header, content, picture }) => {
+const WhyITPost1 = ({ content2,header, content, picture }) => {
   return (
     <div
       style={{
@@ -52,6 +52,12 @@ const WhyITPost1 = ({ header, content, picture }) => {
         >
           {content}
         </p>
+          <p style={{
+              textAlign: "justify",
+
+          }}>
+              {content2}
+          </p>
       </div>
     </div>
   );
@@ -60,5 +66,6 @@ const WhyITPost1 = ({ header, content, picture }) => {
 WhyITPost1.propTypes = {
   content: PropTypes.string,
   header: PropTypes.string.isRequired,
+    content2: PropTypes.string,
 };
 export default WhyITPost1;

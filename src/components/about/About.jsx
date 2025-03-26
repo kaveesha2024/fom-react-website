@@ -67,6 +67,17 @@ const About = () => {
              overall health and longevity but also reduces healthcare costs, enhances mental well-being, and fosters
              a sustainable, healthier future for communities."
       />
+      <FullWidthCard
+        topic="🌿 What We Offer"
+        content="At the Lifestyle Counselling & Research Clinic,
+         we provide personalized, science-backed solutions to help individuals prevent,
+          manage, and reverse non-communicable diseases (NCDs) through lifestyle modifications.
+          Our approach is holistic, evidence-based,
+           and sustainable—focusing on nutrition,
+           physical activity, mental well-being,
+            and behavioral changes."
+        readMorePath="/about/what-we-offer"
+      />
       <Footer />
     </div>
   );
