@@ -43,11 +43,11 @@ const About = () => {
         relying on the latest research to develop effective nutrition and lifestyle strategies.
         Every individual receives personalized care,
         with tailored guidance that aligns with their unique health needs and goals. Our focus is on holistic wellness,
-         integrating physical health, mental well-being, and balanced nutrition to create long-term,
-         sustainable health improvements.
-         We believe in education and awareness, empowering individuals with knowledge to make informed,
-         healthier choices in their daily lives. Through continuous innovation and research,
-          we work towards advancing lifestyle medicine, contributing to a healthier society with lasting benefits."
+        integrating physical health, mental well-being, and balanced nutrition to create long-term,
+        sustainable health improvements.
+        We believe in education and awareness, empowering individuals with knowledge to make informed,
+        healthier choices in their daily lives. Through continuous innovation and research,
+        we work towards advancing lifestyle medicine, contributing to a healthier society with lasting benefits."
       />
       <FullWidthCard
         topic="Why It Matters"
@@ -55,28 +55,33 @@ const About = () => {
         content="The rising prevalence of non-communicable diseases (NCDs) such as diabetes,
         heart disease, metabolic syndrome, and certain cancers is directly linked to poor lifestyle choices,
         including unhealthy diets, sedentary habits, stress, and lack of proper sleep. Insulin resistance,
-         a key precursor to type 2 diabetes and metabolic disorders,
-         is strongly associated with obesity and poor nutrition.
-         Many individuals unknowingly increase their risk of NCDs by consuming highly processed foods,
-          excessive sugars, and unhealthy fats, combined with a lack of physical activity and chronic stress,
-           all of which contribute to inflammation and hormonal imbalances. By adopting early lifestyle modifications,
-           such as incorporating whole, nutrient-dense foods, engaging in regular exercise, managing stress,
-           and maintaining restorative sleep,
-            individuals can significantly reduce their risk of chronic diseases and even reverse certain
-            conditions before they require pharmaceutical intervention. This holistic approach not only improves
-             overall health and longevity but also reduces healthcare costs, enhances mental well-being, and fosters
-             a sustainable, healthier future for communities."
+        a key precursor to type 2 diabetes and metabolic disorders,
+        is strongly associated with obesity and poor nutrition.
+        Many individuals unknowingly increase their risk of NCDs by consuming highly processed foods,
+        excessive sugars, and unhealthy fats, combined with a lack of physical activity and chronic stress,
+        all of which contribute to inflammation and hormonal imbalances. By adopting early lifestyle modifications,
+        such as incorporating whole, nutrient-dense foods, engaging in regular exercise, managing stress,
+        and maintaining restorative sleep,
+        individuals can significantly reduce their risk of chronic diseases and even reverse certain
+        conditions before they require pharmaceutical intervention. This holistic approach not only improves
+        overall health and longevity but also reduces healthcare costs, enhances mental well-being, and fosters
+        a sustainable, healthier future for communities."
       />
       <FullWidthCard
         topic="🌿 What We Offer"
         content="At the Lifestyle Counselling & Research Clinic,
          we provide personalized, science-backed solutions to help individuals prevent,
-          manage, and reverse non-communicable diseases (NCDs) through lifestyle modifications.
-          Our approach is holistic, evidence-based,
-           and sustainable—focusing on nutrition,
-           physical activity, mental well-being,
-            and behavioral changes."
+         manage, and reverse non-communicable diseases (NCDs) through lifestyle modifications.
+         Our approach is holistic, evidence-based,
+         and sustainable—focusing on nutrition,
+         physical activity, mental well-being,
+         and behavioral changes."
         readMorePath="/about/what-we-offer"
+      />
+      <FullWidthCard
+        topic="🤝 Collaborations & Partnerships"
+        content="We partner with universities, healthcare professionals, and organizations to expand our reach and impact.."
+        readMorePath="/about/collaborations"
       />
       <Footer />
     </div>

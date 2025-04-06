@@ -5,6 +5,7 @@ import WhoWeAre from "./components/about/whoWeAre/WhoWeAre.jsx";
 import OurMission from "./components/about/ourMission/OurMission.jsx";
 import WhyItMatters from "./components/about/whyItMatters/WhyItMatters.jsx";
 import WhatWeOffer from "./components/about/whatWeOffer/WhatWeOffer.jsx";
+import OurFacilities from "./components/about/OurFacilities/OurFacilities.jsx";
 
 const App = () => {
 	return (
@@ -15,6 +16,7 @@ const App = () => {
 			<Route path="/about/our-mission" element={<OurMission />}  />
 			<Route path="/about/why-it-matters" element={<WhyItMatters />}  />
 			<Route path="/about/what-we-offer" element={<WhatWeOffer />}  />
+			<Route path="/about/collaborations" element={<OurFacilities />}  />
 		</Routes>
 	);
 };

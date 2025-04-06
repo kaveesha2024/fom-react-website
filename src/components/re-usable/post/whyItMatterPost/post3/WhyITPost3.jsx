@@ -14,6 +14,8 @@ const WhyITPost1 = ({
   span2,
   para3,
   span3,
+  para5,
+  span5,
 }) => {
   return (
     <div
@@ -74,6 +76,7 @@ const WhyITPost1 = ({
           <ParaAndSpan para={para2} span={span2} />
           <ParaAndSpan para={para3} span={span3} />
           <ParaAndSpan para={para4} span={span4} />
+          <ParaAndSpan para={para5} span={span5} />
         </div>
         <ParaAndSpan para={lastText} />
       </div>
