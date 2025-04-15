@@ -1,0 +1,37 @@
+.service-detail-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f9ff;
+    font-family: Arial, sans-serif;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.service-image {
+    width: 50%;
+    object-fit: cover;
+}
+
+.service-content {
+    padding: 30px;
+    width: 50%;
+}
+
+.service-content h1 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.service-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
